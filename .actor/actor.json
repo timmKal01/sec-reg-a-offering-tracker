@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "sec-reg-a-offering-tracker",
+    "title": "SEC Regulation A+ Offering Tracker",
+    "description": "Track new SEC Form 1-A filings, the offering statement companies file for a Regulation A+ mini-IPO (an SEC-qualified public offering open to non-accredited investors, exempt from full IPO registration). Search by keyword, with an option to include 1-A/A amendments.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

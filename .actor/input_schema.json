@@ -1,0 +1,39 @@
+{
+    "title": "SEC Regulation A+ Offering Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "Keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text search across the filing (matches the issuer's name and filing text). Leave blank for all new Reg A+ offering statements market-wide."
+        },
+        "includeAmendments": {
+            "title": "Include amendments (1-A/A)",
+            "type": "boolean",
+            "editor": "checkbox",
+            "description": "By default only original Form 1-A filings are returned (new Reg A+ offerings). Turn this on to also include 1-A/A amendments to already-filed offerings.",
+            "default": false
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, by filing date.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 120
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of filings to return, most recently filed first.",
+            "default": 50,
+            "minimum": 1,
+            "maximum": 100
+        }
+    },
+    "required": []
+}

@@ -50,10 +50,8 @@ One record per filing:
 ```
 
 A Reg A+ offering file number starts with `024-`, distinct from a
-traditional S-1 IPO registration number (which starts with `333-`) —
-this actor is a Reg A+-specific sibling to [SEC IPO Registration
-Tracker](https://apify.com/m_ctim/sec-ipo-registration-tracker),
-not a duplicate of it.
+traditional S-1 IPO registration number (which starts with `333-`), so
+this actor covers Reg A+ offerings only.
 
 ## How it works
 
@@ -67,6 +65,5 @@ Billed per **search** (one run), not per filing returned.
 
 ## Related products
 
-- [IPO Tracker](https://apify.com/m_ctim/sec-ipo-registration-tracker): traditional Form S-1 IPO registrations, a related but legally distinct offering type
 - [SEC 8-K Tracker](https://apify.com/m_ctim/sec-8k-material-event-tracker)
 - [Startup Funding Tracker](https://apify.com/m_ctim/form-d-fundraising-tracker)

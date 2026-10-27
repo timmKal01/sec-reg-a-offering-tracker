@@ -34,6 +34,7 @@ One record per filing:
 
 ```json
 {
+  "rowType": "filing",
   "accessionNumber": "0002141083-26-000001",
   "form": "1-A",
   "isAmendment": false,
